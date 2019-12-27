@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(morgan("common"));
+app.use(morgan("dev"));
 app.use(cors());
 
 const books = require("./book-data");
